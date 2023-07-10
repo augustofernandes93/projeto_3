@@ -13,7 +13,7 @@ body{
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover { 
+.nav-produtos .nav-link.active:hover { 
     color: white;
 }
 
@@ -37,13 +37,13 @@ body{
     color: #adc91e;;
 }
 
-.nav-cardapio .nav-link.active,
+.nav-produtos .nav-link.active,
 #fale-conosco button {
     background-color:#30d26c;;
     color: #fff;
 }
 
-.nav-cardapio .nav-link:hover{
+.nav-produtos .nav-link:hover{
     color: #30d26c;;
 }
 
@@ -62,5 +62,13 @@ body{
         
     }
 }
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .carousel-item img{
+        height: 400px;
+
+        }
+    
+}
+
 
 
